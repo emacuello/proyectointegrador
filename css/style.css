@@ -1,0 +1,71 @@
+.tickets {
+    color: #29bf12;
+}
+
+.posiciontexto {
+    text-align: right !important;
+}
+
+
+.brillo {
+    filter: brightness(40%);
+}
+
+.carousel-caption {
+    right: 10% !important;
+    left: 50% !important;
+    padding-bottom: 7.25rem;
+}
+
+.carousel-control-next-icon {
+    opacity: 0;
+}
+
+.carousel-control-prev-icon {
+    opacity: 0;
+}
+
+.carousel-indicators {
+    opacity: 0;
+}
+
+.tope {
+    padding-top: 20px;
+
+}
+
+.botontama {
+    --bs-btn-padding-y: .1rem;
+    --bs-btn-padding-x: .1rem;
+    --bs-btn-font-size: .9rem;
+}
+
+.fuentecolor {
+    color: aliceblue;
+    background-color: #0096c7;
+}
+
+.bcolor {
+    padding-top: 20px;
+    background-color: #212529;
+}
+
+.pd {
+    padding-left: 0 !important;
+    padding-right: 2px;
+}
+
+.btn-success {
+    background-color: #7cb518;
+    color: aliceblue;
+    border-color: transparent;
+}
+
+.pbajo {
+    padding-bottom: 20px;
+}
+
+.fcolor {
+    background-color: #233d4d;
+    padding-top: 20px;
+}
