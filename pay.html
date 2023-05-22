@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar tickets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/codoacodo.png" alt="Codoacodoicon" width="100" height="70">
+            </a>
+            <a class="navbar-brand" href="#">Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://emacuello.github.io/proyectointegrador/#conf">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://emacuello.github.io/proyectointegrador/#conoce">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://emacuello.github.io/proyectointegrador/#lugaryfecha">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://emacuello.github.io/proyectointegrador/#convorador">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link tickets" href="#">Comprar tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container tope2">
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-12">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Estudiante</h5>
+                        <p class="card-text">Tiene un descuento</p>
+                        <h5 class="margenes">80%</h5>
+                            <footer class="blockquote-footer">* Presentar documentación<cite title="Source Title"></cite></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card border-success mb-3" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Trainee</h5>
+                        <p class="card-text">Tiene un descuento</p>
+                        <h5 class="margenes">50%</h5>
+                            <footer class="blockquote-footer">* Presentar documentación<cite title="Source Title"></cite></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card border-warning mb-3" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Junior</h5>
+                        <p class="card-text">Tiene un descuento</p>
+                        <h5 class="margenes">15%</h5>
+                            <footer class="blockquote-footer">* Presentar documentación<cite title="Source Title"></cite></footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tope text-center">
+            <p>VENTA</p>
+            <h2 class="text-uppercase">Valor de ticket $200</h2>
+        </div>
+        <form class="row g-3 tope pbajo">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+            <div class="col-12">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Correo">
+            </div>
+            <div class="col-md-6">
+                <label for="cantidad" class="form-label">Cantidad</label>
+                <input type="text" class="form-control" id="cantidad">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Categoria</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Seleciona...</option>
+                    <option value="80">Estudiante</option>
+                    <option value="50">Trainee</option>
+                    <option value="15">Junior</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid fcolor">
+        <div class="row p-5 text-light">
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Preguntas Frecuentes</a></div>
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Contáctanos</a></div>
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Prensa</a></div>
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Conferencias</a></div>
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Términos y condiciones</a></div>
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Privacidad</a></div>
+            <div class="col-md col-sm-12"><a href="#" class="nav-link active">Estudiantes</a></div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>     
+</body>
+</html>

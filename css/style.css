@@ -55,7 +55,7 @@
     padding-right: 2px;
 }
 
-.btn-success {
+#newbtn {
     background-color: #7cb518;
     color: aliceblue;
     border-color: transparent;
@@ -68,4 +68,17 @@
 .fcolor {
     background-color: #233d4d;
     padding-top: 20px;
+}
+
+.margenes {
+    margin-bottom:1.5rem;
+}
+
+.blockquote-footer {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.tope2{
+    padding-top:50px;
 }
