@@ -55,11 +55,6 @@
     padding-right: 2px;
 }
 
-#newbtn {
-    background-color: #7cb518;
-    color: aliceblue;
-    border-color: transparent;
-}
 
 .pbajo {
     padding-bottom: 20px;
@@ -81,4 +76,14 @@
 
 .tope2{
     padding-top:50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+
+.nuevocolor {
+        background-color: #7cb518;
+        color: aliceblue;
+        border-color: transparent;
 }
